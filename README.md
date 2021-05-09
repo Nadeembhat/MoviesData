@@ -4,7 +4,7 @@
 This app allows users to search movies and view their overview, cast, reviews and trailers. The movies can also be filtered to show users
 top rated, upcoming and popular movies.
 
-This app uses the API from [themoviedb.org](https://www.themoviedb.org/)
+This app uses the API from  [themoviedb.org](https://www.themoviedb.org/)
 
 ## Screenshots
 ![movies_list](https://user-images.githubusercontent.com/51857962/74320888-856b5c80-4dd5-11ea-8a6e-4dc962b278c6.png)
@@ -24,7 +24,7 @@ This app uses the API from [themoviedb.org](https://www.themoviedb.org/)
 **Define key in build.gradle**
 
 In your Android studio root directory, locate the `gradle.properties` under `.gradle` folder and add the following: 
-Add `PopularMoviesApp_ApiKey = "YOUR-API-KEY"`.
+Add `PopularMoviesApp_ApiKey = "YOUR-API-KEY"`. Go to Themoviesdb account ->Settings-> api-> requestapi ->Key [https://www.themoviedb.org/settings/api]
 
 ## Language
 
@@ -73,3 +73,6 @@ Add `PopularMoviesApp_ApiKey = "YOUR-API-KEY"`.
 
 # Movies-List
 # Movies-List
+
+
+#NADEEMBHAt
