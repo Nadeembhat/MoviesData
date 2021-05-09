@@ -1,0 +1,17 @@
+package com.android.ernb.moviesData.util
+/**
+ * Created by Er Nadeem Bhat on 09/05/2021 ,10:13 AM
+ * ernadeembhat@gmail.com
+ * Copyright(R)
+ */
+// A generic class that contains data and status about loading this data.
+sealed class Resource<T>(
+    val status:Status,
+    val data: T? = null,
+    val message: String? = null
+) {
+    class Success<T>(data: T) : Resource<T>(Status.SUCCESS,data)
+    class Loading<T>(data: T? = null) : Resource<T>(Status.LOADING,data)
+    class Error<T>(message: String, data: T? = null) : Resource<T>(Status.ERROR,data, message)
+    public enum class Status{SUCCESS,ERROR,LOADING}
+}
